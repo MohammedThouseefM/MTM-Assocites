@@ -386,4 +386,8 @@ footer .containerfoo p {
     .barss {
         display: block;
     }
+    .cards{
+        width: 150px;
+    }
 }
+
