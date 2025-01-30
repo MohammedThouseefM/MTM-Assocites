@@ -349,6 +349,7 @@ select{
     min-width: 200px;
     height: 30px;
     margin: 5px;
+    margin-bottom: 20px;
     border: 1px solid rgb(47, 0, 255);
     border-radius: 5px;
     color: #fff;
@@ -387,7 +388,52 @@ footer .containerfoo p {
         display: block;
     }
     .cards{
-        width: 150px;
+        width: 108px;
+    }
+    .cardcolors1{
+        height: 75px;
+    }
+    .cardcolors2{
+        height: 75px;
+    }
+    .cardcolors3{
+        height: 75px;
+    }
+    .cardcolors4{
+        height: 75px;
+    }
+    .cardcolors5{
+        height: 75px;
+    }
+    .cardcolors6{
+        height: 75px;
+    }
+    .cardcolors7{
+        height: 75px;
+    }
+    .cardcolors8{
+        height: 75px;
+    }
+    .cardcolors9{
+        height: 75px;
+    }
+    .cardcolors10{
+        height: 75px;
+    }
+    .cardcolors11{
+        height: 75px;
+    }
+    .cardcolors12{
+        height: 75px;
+    }
+    .cardcolors13{
+        height: 75px;
+    }
+    .cardcolors14{
+        height: 75px;
+    }
+    #lastcard{
+        padding: 80px 0;
     }
 }
 
