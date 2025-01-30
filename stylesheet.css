@@ -71,7 +71,7 @@ nav {
 header h2 {
     text-align: center;
     font-size: 50px;
-    padding-top: 150px;
+    padding-top: 175px;
     color: #ffffff;
 }
 
@@ -116,7 +116,6 @@ form input[type="text"]{
     cursor: pointer;
 }
 section {
-    padding: 2rem 0;
     text-align: center;
 }
 
@@ -151,6 +150,15 @@ section {
     margin: 30px auto;
     justify-content: center;
     background-color: #e4e4e4;
+}
+
+.container2 h2{
+    margin: 20px 40px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(155, 151, 151);
+    background-image: linear-gradient(130deg ,rgb(162, 162, 255), rgb(247, 182, 236),rgb(247, 247, 180),rgb(195, 255, 195),rgb(177, 177, 235), rgb(231, 211, 211),rgb(241, 241, 191),rgb(171, 231, 171),rgb(180, 180, 238));
 }
 
 .container2 a{
@@ -319,8 +327,8 @@ button:hover{
 }
 
 .detail2 input[type="text"]{
-    width: 24%;
-    min-width: 160px;
+    width: 22%;
+    min-width: 150px;
     height: 30px;
     margin: 5px 0;
     padding: 10px;
@@ -328,8 +336,8 @@ button:hover{
     border-radius: 5px;
 }
 select{
-    width: 5%;
-    min-width: 40px;
+    width: 7%;
+    min-width: 50px;
     height: 30px;
     /* margin: -4px ; */
     border: 1px solid rgb(85, 84, 84);
@@ -356,15 +364,16 @@ select{
     background-color: #f1f1f1;
 }
 
-#services {
+/* #services {
     background: #e9ecef;
-}
+} */
 
-.service {
+/* .service {
     margin: 1rem 0;
-}
+} */
 
 footer .containerfoo p {
+    align-items: center;
     background: #333;
     color: #fff;
     font-size: 12px;
