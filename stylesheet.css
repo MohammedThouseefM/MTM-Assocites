@@ -16,8 +16,8 @@ body {
 
 #firtpage {
     background-image: linear-gradient(0deg, #00000050, #00000050), url(foilbg.jpg) ;
-
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     text-align: center;
     mask-repeat: no-repeat;
@@ -73,7 +73,6 @@ header h2 {
     font-size: 50px;
     padding-top: 150px;
     color: #ffffff;
-    text-shadow: #ddddec;
 }
 
 header p {
@@ -106,6 +105,7 @@ form input[type="text"]{
 
 .searchbotton{
     width: 8%;
+    min-width: 45px;
     height: 45px;
     font-size: 16px;
     border: 1px solid rgb(98, 99, 100);
@@ -127,11 +127,12 @@ section {
     margin: 30px 11%;
     height: auto;
     min-height: 60vh;
+    align-content: center;
 }
 
 
 #about h1{
-    margin-top: 70px;
+    align-items: center;
     color: #fff;
 }
 
@@ -144,9 +145,10 @@ section {
 
 
 .container2{
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
-    margin: 30px 11%;
+    margin: 30px auto;
     justify-content: center;
     background-color: #e4e4e4;
 }
@@ -362,10 +364,10 @@ select{
     margin: 1rem 0;
 }
 
-footer {
+footer .containerfoo p {
     background: #333;
     color: #fff;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 @media (max-width:590px){
