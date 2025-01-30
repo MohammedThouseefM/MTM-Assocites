@@ -58,6 +58,12 @@ nav {
     color: #6d99f8;
 }
 
+.barss{
+    display: none;
+    font-size: 20px;
+    margin:13px ;
+}
+
 .logo{
     display: none;
 }
@@ -360,4 +366,13 @@ footer {
     background: #333;
     color: #fff;
     font-size: 16px;
+}
+
+@media (max-width:590px){
+    #navsss {
+        display: none;
+    }
+    .barss {
+        display: block;
+    }
 }
